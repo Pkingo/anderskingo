@@ -3,9 +3,9 @@ import React from 'react';
 import profileImage from '../assets/profile.jpg';
 
 const Home = () => (
-  <div>
+  <div className="grid-2x2">
     <h3>Anders Kingo</h3>
-    <p>
+    <p className="home-paragraf">
       Teologisk kandidat fra Aarhus Universitet; sognepræst i Helsingør;
       dr.theol. på afhandlingen Analogiens teologi, Københavns Universitet;
       adskillige artikler om klassisk teologiske emner, men især om Søren
@@ -14,7 +14,7 @@ const Home = () => (
       og en pædagogisk guide til at læse Kierkegaard At være samtidig med sig
       selv.
     </p>
-    <img src={profileImage} alt="Anders Kingo" />
+    <img className="home-picture" src={profileImage} alt="Anders Kingo" />
   </div>
 );
 

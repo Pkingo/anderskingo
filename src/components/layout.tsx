@@ -15,26 +15,24 @@ import MineProjekter from '../pages/mine-publikationer';
 import Publikationer from '../pages/mine-publikationer';
 import Contact from '../pages/contact';
 
-interface Props {
-  children: ReactNode;
-}
-
-const Layout = ({ children }: Props) => {
+const Layout = () => {
   const browserHistory = createBrowserHistory();
   return (
-    <Router history={browserHistory}>
-      <Navbar />
-      <div className="container body-container">
+    <div className="body-grid">
+      <Router history={browserHistory}>
+        <Navbar />
         <Header />
-        <Route path="/" exact component={Home} />
-        <Route path="/foredrag" component={Foredrag} />
-        <Route path="/kulturrejser" component={Kulturrejser} />
-        <Route path="/projekter" component={MineProjekter} />
-        <Route path="/publukationer" component={Publikationer} />
-        <Route path="/kontakt" component={Contact} />
+        <div className="page-grid">
+          <Route path="/" exact component={Home} />
+          <Route path="/foredrag" component={Foredrag} />
+          <Route path="/kulturrejser" component={Kulturrejser} />
+          <Route path="/projekter" component={MineProjekter} />
+          <Route path="/publukationer" component={Publikationer} />
+          <Route path="/kontakt" component={Contact} />
+        </div>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 };
 

@@ -10,7 +10,7 @@ a.inherit:hover {
 }
 
 .navbar {
-  background-color: blue;
+  background-color: white;
 }
 
 a.nav-link:hover {
@@ -19,7 +19,7 @@ a.nav-link:hover {
 
 .navbar-brand,
 .nav-link {
-  color: #333366;
+  color: #123c69;
   font-family: Poppins, sans-serif;
 }
 
@@ -30,7 +30,7 @@ a.nav-link:hover {
 }
 
 .burger-icon {
-  color: #333366;
+  color: #123c69;
   font-size: 25px;
   background-color: transparent;
 }
