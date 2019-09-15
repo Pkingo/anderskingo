@@ -1,0 +1,49 @@
+a.inherit {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+a.inherit:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #333366;
+  font-family: Poppins, sans-serif;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  font-weight: 700px;
+  color: #444477;
+}
+
+.burger-icon {
+  color: #333366;
+  font-size: 25px;
+  background-color: transparent;
+}
+
+.burger-icon__button,
+.burger-icon__button:hover {
+  border: none;
+  background-color: transparent;
+}
+
+/* Mobile and tablet specific styling */
+@media all and (max-width: 890px) {
+  .navbar-text:hover {
+    color: grey;
+  }
+}

@@ -1,0 +1,22 @@
+.body-container {
+  margin-top: 100px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+/* Mobile and tablet specific styling */
+@media all and (max-width: 890px) {
+  .navbar-text:hover {
+    color: grey;
+  }
+
+  .dekstop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline;
+  }
+}
