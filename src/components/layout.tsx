@@ -11,8 +11,8 @@ import Footer from './footer';
 import Home from '../pages/home';
 import Foredrag from '../pages/foredrag';
 import Kulturrejser from '../pages/kulturrejser';
-import MineProjekter from '../pages/mine-publikationer';
-import Publikationer from '../pages/mine-publikationer';
+import MineProjekter from '../pages/projekter';
+import Publikationer from '../pages/publikationer';
 import Contact from '../pages/contact';
 
 const Layout = () => {
@@ -25,8 +25,8 @@ const Layout = () => {
         <div className="page-grid">
           <Route path="/" exact component={Home} />
           <Route path="/foredrag/:id" component={Foredrag} />
-          <Route path="/kulturrejser" component={Kulturrejser} />
-          <Route path="/projekter" component={MineProjekter} />
+          <Route path="/kulturrejser/:id" component={Kulturrejser} />
+          <Route path="/projekter/:id" component={MineProjekter} />
           <Route path="/publukationer" component={Publikationer} />
           <Route path="/kontakt" component={Contact} />
         </div>

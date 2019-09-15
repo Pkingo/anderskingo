@@ -1,0 +1,27 @@
+.kulturrejser-container {
+  display: flex;
+}
+
+.kulturrejser-program {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.kulturrejser-left-section {
+  grid-column-start: 1;
+}
+
+.kulturrejser-right-section {
+  grid-column-start: 2;
+}
+/* Mobile and tablet specific styling */
+@media all and (max-width: 890px) {
+  .kulturrejser-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .kulturrejser-program {
+    display: inline;
+  }
+}

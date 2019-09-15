@@ -65,17 +65,53 @@ const Navbar = () => {
               </div>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/foredrag"></Link>
+              <Link className="nav-link" to="/kulturrejser"></Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/kulturrejser">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Kulturrejser
-              </Link>
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <Link className="nav-link" to="/kulturrejser/kulturrejse">
+                  Kulturrejse
+                </Link>
+                <Link className="nav-link" to="/kulturrejser/program">
+                  Program 2018
+                </Link>
+                <Link className="nav-link" to="/kulturrejser/tilmelding">
+                  Tilmelding
+                </Link>
+              </div>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/projekter">
-                Mine Projeter
-              </Link>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Mine Projekter
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <Link className="nav-link" to="/projekter/sanselighed">
+                  Ånd og Sanselighed
+                </Link>
+                <Link className="nav-link" to="/projekter/herrnhuterne">
+                  Søren Kierkegaard og herrnhuterne
+                </Link>
+                <Link className="nav-link" to="/projekter/terapi">
+                  Terapi og sjælesorg
+                </Link>
+              </div>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/publukationer">
