@@ -1,5 +1,7 @@
 import React from 'react';
 
+import profileImage from '../assets/profile.jpg';
+
 const Home = () => (
   <div>
     <h3>Anders Kingo</h3>
@@ -12,6 +14,7 @@ const Home = () => (
       og en pædagogisk guide til at læse Kierkegaard At være samtidig med sig
       selv.
     </p>
+    <img src={profileImage} alt="Anders Kingo" />
   </div>
 );
 

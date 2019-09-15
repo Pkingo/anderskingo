@@ -9,6 +9,10 @@ import Footer from './footer';
 
 // Pages
 import Home from '../pages/home';
+import Foredrag from '../pages/foredrag';
+import Kulturrejser from '../pages/kulturrejser';
+import MineProjekter from '../pages/mine-publikationer';
+import Publikationer from '../pages/mine-publikationer';
 import Contact from '../pages/contact';
 
 interface Props {
@@ -23,6 +27,10 @@ const Layout = ({ children }: Props) => {
       <div className="container body-container">
         <Header />
         <Route path="/" exact component={Home} />
+        <Route path="/foredrag" component={Foredrag} />
+        <Route path="/kulturrejser" component={Kulturrejser} />
+        <Route path="/projekter" component={MineProjekter} />
+        <Route path="/publukationer" component={Publikationer} />
         <Route path="/kontakt" component={Contact} />
         <Footer />
       </div>

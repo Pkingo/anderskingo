@@ -27,6 +27,26 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link active" to="/foredrag">
+                Foredrag
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" to="/kulturrejser">
+                Kulturrejser
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" to="/projekter">
+                Mine Projeter
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link active" to="/publukationer">
+                Publikationer
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link active" to="/kontakt">
                 Kontakt
               </Link>
