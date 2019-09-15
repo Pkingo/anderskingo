@@ -24,7 +24,7 @@ const Layout = () => {
         <Header />
         <div className="page-grid">
           <Route path="/" exact component={Home} />
-          <Route path="/foredrag" component={Foredrag} />
+          <Route path="/foredrag/:id" component={Foredrag} />
           <Route path="/kulturrejser" component={Kulturrejser} />
           <Route path="/projekter" component={MineProjekter} />
           <Route path="/publukationer" component={Publikationer} />
