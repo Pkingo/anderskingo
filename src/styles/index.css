@@ -1,5 +1,4 @@
 @import './fonts.css';
-@import './navbar.css';
 @import './shared.css';
 @import './header.css';
 @import './footer.css';
@@ -7,3 +6,4 @@
 @import './home.css';
 @import './foredrag.css';
 @import './kulturrejser.css';
+@import './navbar.css';

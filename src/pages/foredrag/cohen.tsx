@@ -17,7 +17,11 @@ const CohenForedrag = () => (
       <p>sognepræst, dr.theol.</p>
       <p>Anders Kingo</p>
     </div>
-    <img className="foredrag-right-paragraf" src={Cohen} alt="Leonard Cohen" />
+    <img
+      className="foredrag-right-paragraf foredrag-image"
+      src={Cohen}
+      alt="Leonard Cohen"
+    />
   </div>
 );
 

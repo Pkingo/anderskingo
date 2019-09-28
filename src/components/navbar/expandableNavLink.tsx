@@ -1,0 +1,39 @@
+import React, { ReactElement, useContext } from 'react';
+import NavLink, { ILink } from './navLink';
+import { NavbarContext, Actions } from './navbarContext';
+
+interface IExpandableNavLink {
+  titel: string;
+  navLinks: ILink[];
+  action: Actions;
+  expanded: boolean;
+}
+
+const ExpandableNavLink = ({
+  titel,
+  navLinks,
+  action,
+  expanded
+}: IExpandableNavLink): ReactElement => {
+  const { dispatch } = useContext(NavbarContext);
+  return (
+    <div>
+      <div className="nav-link" onClick={() => dispatch(action)}>
+        {titel}
+      </div>
+      {expanded && (
+        <ul className="navmenu-submenu">
+          {navLinks.map(link => (
+            <NavLink
+              {...link}
+              key={link.titel}
+              onClick={() => dispatch(Actions.HideMenu)}
+            />
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
+
+export default ExpandableNavLink;

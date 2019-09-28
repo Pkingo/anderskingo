@@ -19,7 +19,11 @@ const ValgetForedrag = () => (
       <p>sognepræst, dr.theol.</p>
       <p>Anders Kingo</p>
     </div>
-    <img className="foredrag-right-paragraf" src={Valget} alt="Valget" />
+    <img
+      className="foredrag-right-paragraf foredrag-image"
+      src={Valget}
+      alt="Valget"
+    />
   </div>
 );
 

@@ -1,5 +1,8 @@
 .kulturrejser-container {
-  display: flex;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
 }
 
 .kulturrejser-program {
@@ -15,6 +18,16 @@
 .kulturrejser-right-section {
   grid-column-start: 2;
 }
+
+.kulturrejse-image {
+  grid-row-start: 2;
+  justify-self: center;
+}
+
+.kulturrejse-left {
+  grid-row-start: 2;
+}
+
 /* Mobile and tablet specific styling */
 @media all and (max-width: 890px) {
   .kulturrejser-container {
@@ -23,5 +36,9 @@
   }
   .kulturrejser-program {
     display: inline;
+  }
+
+  .kulturrejser-image {
+    width: 100%;
   }
 }

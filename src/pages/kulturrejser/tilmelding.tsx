@@ -10,22 +10,54 @@ const Tilmelding = () => (
     </p>
     <p>Første person:</p>
     <p>
-      NAVN (som i pas): ____________________________________________________
+      NAVN (som i pas)
+      <span className="desktop-only">
+        : ____________________________________________________
+      </span>
     </p>
-    <p>Adresse:____________________________________________________________</p>
     <p>
-      Postnr.:___________ By:_______________________________________________
+      Adresse
+      <span className="desktop-only">
+        : ____________________________________________________________
+      </span>
     </p>
-    <p>E-mail:______________________________________________________________</p>
+    <p>
+      Postnr.<span className="desktop-only">: ___________</span> By
+      <span className="desktop-only">
+        : _______________________________________________
+      </span>
+    </p>
+    <p>
+      E-mail
+      <span className="desktop-only">
+        : _____________________________________________________________
+      </span>
+    </p>
     <p>Anden person:</p>
     <p>
-      NAVN (som i pas): ____________________________________________________
+      NAVN (som i pas)
+      <span className="desktop-only">
+        : ____________________________________________________
+      </span>
     </p>
-    <p>Adresse:____________________________________________________________</p>
     <p>
-      Postnr.:___________ By:_______________________________________________
+      Adresse
+      <span className="desktop-only">
+        : ____________________________________________________________
+      </span>
     </p>
-    <p>E-mail:______________________________________________________________</p>
+    <p>
+      Postnr.<span className="desktop-only">: ___________</span> By
+      <span className="desktop-only">
+        : _______________________________________________
+      </span>
+    </p>
+    <p>
+      E-mail
+      <span className="desktop-only">
+        : _____________________________________________________________
+      </span>
+    </p>
     <p>
       <strong>Pris:</strong> 14.700 kr. og inkluderer Fly
       Kastrup-Thessaloniki-Athen-Kastrup. Bus, guidning og rejseleder. Samtlige

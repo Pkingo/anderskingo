@@ -26,7 +26,7 @@ const MennesketForedrag = () => (
       <p>Anders Kingo</p>
     </div>
     <img
-      className="foredrag-right-paragraf"
+      className="foredrag-right-paragraf foredrag-image"
       src={Mennesket}
       alt="Mennesket er ånd"
     />

@@ -38,7 +38,11 @@ const EnhverForedrag = () => (
       <p>sognepræst, dr.theol.</p>
       <p>Anders Kingo</p>
     </div>
-    <img className="foredrag-right-paragraf" src={Enhver} alt="Enhver" />
+    <img
+      className="foredrag-right-paragraf foredrag-image"
+      src={Enhver}
+      alt="Enhver"
+    />
   </div>
 );
 

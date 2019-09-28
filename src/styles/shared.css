@@ -1,29 +1,14 @@
+body {
+  margin: 0;
+}
+
 .mobile-only {
   display: none;
 }
-
-.dropdown-menu {
-  border: none;
-  border-radius: 0;
-}
-
-.dropdown {
-  margin-right: -15px;
-  cursor: pointer;
-}
-
-.dropdown:hover {
-  text-decoration: underline;
-}
-
 /* Mobile and tablet specific styling */
 @media all and (max-width: 890px) {
-  .navbar-text:hover {
-    color: grey;
-  }
-
-  .dekstop-only {
-    display: none;
+  .desktop-only {
+    display: none !important;
   }
 
   .mobile-only {

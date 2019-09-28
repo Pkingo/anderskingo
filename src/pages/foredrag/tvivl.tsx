@@ -20,7 +20,7 @@ const TvivlForedrag = () => (
       <p>Anders Kingo</p>
     </div>
     <img
-      className="foredrag-right-paragraf"
+      className="foredrag-right-paragraf foredrag-image"
       src={Tvivl}
       alt="Den frelsende tvivl"
     />

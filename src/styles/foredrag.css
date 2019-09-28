@@ -17,3 +17,15 @@
   width: 100%;
   grid-column-start: 2;
 }
+
+.foredrag-image {
+  max-width: 400px;
+  justify-self: center;
+}
+
+/* Mobile and tablet specific styling */
+@media all and (max-width: 890px) {
+  .foredrag-grid {
+    display: inline;
+  }
+}

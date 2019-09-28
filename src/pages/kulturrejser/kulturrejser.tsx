@@ -3,8 +3,8 @@ import Hellas from '../../assets/hellas1.jpg';
 
 const Kulturrejser = () => (
   <div className="kulturrejser-container">
-    <div>
-      <h1>Kulturrejse: Tilblivelsen af den europæiske kultur</h1>
+    <h1>Kulturrejse: Tilblivelsen af den europæiske kultur</h1>
+    <div className="kulturrejse-left">
       <h6>HELLAS 2018</h6>
       <p>
         Fra onsdag den 29. august til søndag den 9. september Elleve dage i vor
@@ -45,7 +45,7 @@ const Kulturrejser = () => (
         også hentes på min hjemmeside anderskingo.dk
       </p>
     </div>
-    <img src={Hellas} alt="Hellas" />
+    <img src={Hellas} alt="Hellas" className="kulturrejse-image" />
   </div>
 );
 

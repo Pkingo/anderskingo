@@ -107,8 +107,8 @@ const MinePublikationer = () => (
   </div>
 );
 
-const publication = ({ titel, text }: Publication) => (
-  <div>
+const publication = ({ titel, text }: Publication, i: number) => (
+  <div key={i}>
     <p style={{ marginBottom: 0 }}>
       <strong>{titel}</strong>
     </p>

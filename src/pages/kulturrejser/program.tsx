@@ -41,7 +41,7 @@ const Program = () => (
           fredag, begynder lørdagen med et besøg på et af disse ubeskriveligt
           smukke klostre.
         </p>
-        <img src={Hellas2} alt="Hellas" />
+        <img src={Hellas2} alt="Hellas" className="kulturrejser-image" />
         <h6>Fjerde dag (1. september)</h6>
         <p>
           Delphi – Itea
@@ -54,7 +54,7 @@ const Program = () => (
           museum i Delphi. Derefter kører vi de 16 km ned til havnebyen Itea ved
           den korintiske bugt. Her indkvarteres vi på Hotel Nafsika.
         </p>
-        <img src={Hellas3} alt="Hellas" />
+        <img src={Hellas3} alt="Hellas" className="kulturrejser-image" />
         <h6>Femte dag (2. september)</h6>
         <p>
           Nafpaktos - Patras – Olympia
@@ -110,7 +110,7 @@ const Program = () => (
           korintiske kanal. I Athen indkvarteres vi i bymidten på Hotel
           Parthenon, lige neden for antikkens Parthenon.
         </p>
-        <img src={Hellas4} alt="Parthenon" />
+        <img src={Hellas4} alt="Parthenon" className="kulturrejser-image" />
         <h6>Tiende dag (7. september)</h6>
         <p>
           Athen
