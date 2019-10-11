@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.152f6b88.chunk.css",
+    "main.js": "/static/js/main.197e71cf.chunk.js",
+    "main.js.map": "/static/js/main.197e71cf.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.7b7975b7.js",
+    "runtime~main.js.map": "/static/js/runtime~main.7b7975b7.js.map",
+    "static/js/2.1da9dc79.chunk.js": "/static/js/2.1da9dc79.chunk.js",
+    "static/js/2.1da9dc79.chunk.js.map": "/static/js/2.1da9dc79.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.acb95c4b2f238d497069d1ba0b611653.js": "/precache-manifest.acb95c4b2f238d497069d1ba0b611653.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.152f6b88.chunk.css.map": "/static/css/main.152f6b88.chunk.css.map",
+    "static/media/cohen.jpg": "/static/media/cohen.28cbf78a.jpg",
+    "static/media/enhver.jpg": "/static/media/enhver.20e30214.jpg",
+    "static/media/folkelige kierkegaard.jpg": "/static/media/folkelige kierkegaard.96aa4347.jpg",
+    "static/media/hellas1.jpg": "/static/media/hellas1.81aebfcc.jpg",
+    "static/media/hellas2.jpg": "/static/media/hellas2.cc19539e.jpg",
+    "static/media/hellas3.jpg": "/static/media/hellas3.0f852f6e.jpg",
+    "static/media/hellas4.jpg": "/static/media/hellas4.bf478e28.jpg",
+    "static/media/menesket.jpg": "/static/media/menesket.d2e16150.jpg",
+    "static/media/næstekærlighed.jpg": "/static/media/næstekærlighed.171f71fa.jpg",
+    "static/media/profile.jpg": "/static/media/profile.b8250ff8.jpg",
+    "static/media/tvivl.jpg": "/static/media/tvivl.73a47dd7.jpg",
+    "static/media/valget.jpg": "/static/media/valget.21947b2b.jpg"
+  }
+}
