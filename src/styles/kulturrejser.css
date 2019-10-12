@@ -5,10 +5,24 @@
   grid-column-gap: 50px;
 }
 
+.no-space-bottom {
+  margin-bottom: 0;
+}
+
 .kulturrejser-program {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
+}
+
+.kulturrejser-left-section,
+.kulturrejser-right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.kulturrejser-image {
+  align-self: center;
 }
 
 .kulturrejser-left-section {

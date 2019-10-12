@@ -8,6 +8,7 @@
 .page-grid {
   grid-row-start: 3;
   grid-column-start: 2;
+  margin-bottom: 20px;
 }
 
 .grid-2x2 {
