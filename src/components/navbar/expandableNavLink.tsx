@@ -22,7 +22,6 @@ const ExpandableNavLink = ({
 
   const toggle = () =>
     expanded ? dispatch(Actions.HideMenu) : dispatch(action);
-  useOutsideClick(ref, () => dispatch(Actions.HideMenu), expanded);
   return (
     <div ref={ref}>
       <div className="nav-link" onClick={toggle}>
