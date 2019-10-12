@@ -1,6 +1,8 @@
-import React, { ReactElement, useContext } from 'react';
+import React, { ReactElement, useContext, useRef } from 'react';
 import NavLink, { ILink } from './navLink';
 import { NavbarContext, Actions } from './navbarContext';
+
+import useOutsideClick from '../../hooks/useOutsideClick';
 
 interface IExpandableNavLink {
   titel: string;
@@ -16,9 +18,14 @@ const ExpandableNavLink = ({
   expanded
 }: IExpandableNavLink): ReactElement => {
   const { dispatch } = useContext(NavbarContext);
+  const ref = useRef<HTMLDivElement>(null);
+
+  const toggle = () =>
+    expanded ? dispatch(Actions.HideMenu) : dispatch(action);
+  useOutsideClick(ref, () => dispatch(Actions.HideMenu), expanded);
   return (
-    <div>
-      <div className="nav-link" onClick={() => dispatch(action)}>
+    <div ref={ref}>
+      <div className="nav-link" onClick={toggle}>
         {titel}
       </div>
       {expanded && (

@@ -33,7 +33,7 @@ export const kulturrejserSubmenu = [
     to: '/kulturrejser/kulturrejse'
   },
   {
-    titel: 'Program 2018',
+    titel: 'Program 2020',
     to: '/kulturrejser/program'
   },
   {
