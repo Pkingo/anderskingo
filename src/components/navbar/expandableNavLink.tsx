@@ -19,6 +19,7 @@ const ExpandableNavLink = ({
 }: IExpandableNavLink): ReactElement => {
   const { dispatch } = useContext(NavbarContext);
   const ref = useRef<HTMLDivElement>(null);
+  useOutsideClick(ref, () => dispatch(Actions.HideMenu));
 
   const toggle = () =>
     expanded ? dispatch(Actions.HideMenu) : dispatch(action);
