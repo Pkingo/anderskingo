@@ -59,11 +59,11 @@ const Tilmelding = () => (
       </span>
     </p>
     <p>
-      <strong>Pris:</strong> 14.700 kr. og inkluderer Fly
+      <strong>Pris:</strong> 15.500 kr. og inkluderer Fly
       Kastrup-Thessaloniki-Athen-Kastrup. Bus, guidning og rejseleder. Samtlige
-      entréer. Overnatning på et 5-stjernet og seks 4-stjernede hoteller inkl.
-      morgenmad og aftensmad. Der overnattes på dobbeltværelser. Tillæg for
-      enkeltværelse 1.975 kr.
+      entréer. Overnatning på et 5-stjernet hotel og seks 4-stjernede hoteller
+      inkl. morgenmad og aftensmad. Der overnattes på dobbeltværelser. Tillæg
+      for enkeltværelse 3.500 kr.
     </p>
     <p>Enkeltværelse (sæt kryds):</p>
     <p>
@@ -75,7 +75,7 @@ const Tilmelding = () => (
       konto 4255 616 949
     </p>
     <p>
-      <strong>Restbeløb:</strong> senest fire uger før afrejse på samme konto.
+      <strong>Restbeløb:</strong> senest otte uger før afrejse på samme konto.
     </p>
     <p>
       <strong>Prisen inkluderer ikke:</strong> Drikkevarer, rejseforsikring,
