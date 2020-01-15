@@ -5,8 +5,8 @@ const Tilmelding = () => (
     <h1>Tilmelding</h1>
     <h6>Hellas</h6>
     <p>
-      På sporet af den europæiske kulturs tilblivelse fra onsdag d. 29. august
-      til søndag 9. september 2018
+      På sporet af den europæiske kulturs tilblivelse fra onsdag d. 6. juni
+      til søndag 17. juni 2020
     </p>
     <p>Første person:</p>
     <p>
